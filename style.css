@@ -1,0 +1,100 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.badge {
+  background-color: #5b5fef;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.search-box {
+  flex: 1;
+  margin: 0 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.install-btn {
+  background-color: #5b5fef;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+[7/7, 12:47 PM] ChatGPT: .container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #fff;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  min-height: 100vh;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 0.7rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+  background-color: #e7e9fc;
+  color: #3f45d8;
+}
+
+.content {
+  padding: 2rem;
+  flex: 1;
+}
+
+.hero {
+  background: linear-gradient(to right, #3f45d8, #6c63ff);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.docs h2 {
+  margin-bottom: 1rem;
+}
+
+.docs p,
+.docs ol {
+  margin-bottom: 1rem;
+}
